@@ -23,3 +23,24 @@
 ### $\frac{d}{dx}x^n=nx^{n-1}, \quad \frac{d}{dx}\text{ln}x=\frac{1}{x}, \quad \frac{d}{dx}e^x=e^x, \quad \frac{d}{dx}(fg)=f\frac{dg}{dx}+g\frac{df}{dx}$  
 ### 연쇄법칙(Chain rule) - 합성함수의 도함수를 구할 때 활용 $f\circ g$의 도함수는 $f'(g(x))g'(x)$로 구함수 있다.
 
+```python
+# sympy 필요 x,y,z와 같이 symbolic지원
+
+
+import sympy as sp
+x=sp.Symbol('x')
+print(sp.diff(3*x**2+1,x)) # 6*x 도함수
+
+# scipy는 과학 계삭에 필요
+from scipy.misc import derivative
+
+def f(x):
+  return 3*x**2+1
+
+def d(x):
+  return derivate(f,x)
+
+print(d(2.0))  # 12.0 answer. sp.diff(3*x**2+1).subs(x,2)
+
+
+```
