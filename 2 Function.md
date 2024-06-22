@@ -9,3 +9,8 @@
 
 ### 함수의 연속성 : f 함수가 x=a에서 연속이라는 것은 그 점에서의 극한 값과 함수 값이 존재하고 두 값이 일치함을 의미한다.  
 ### $\lim_{x = a} f(x)=f(a)$
+
+### 최대 최소정리(Exterme value theorem) : 함수 그래프가 끊임 없이 매끄럽게 이어지면 그 함수는 연속이라고 정리할 수 있고, 이때 함수가 폐구간[a,b]에서 연속이면 함수가 최댓값과 최솟값을 갖는다.  
+
+### 중간값 정리[Intermediate value theorem](https://ko.khanacademy.org/math/precalculus/x9e81a4f98389efdf:limits-and-continuity/x9e81a4f98389efdf:working-with-the-intermediate-value-theorem/v/intermediate-value-theorem-example)  
+### 어떤 함수가 폐구간[a,b]에서 연속이고 f(a)와 f(b)의 값이 같지 않은 조건에서 f(a)와 f(b)사이의 어떤 값 k에 대해 f(c)=k인 c가 적어도 한 개 이상 존재하는 것을 의미 한다.
