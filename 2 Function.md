@@ -4,5 +4,8 @@
 ### $h(x)=g(f(x))=g\circ f$ 
 
 ## 2) 함수의 극한, 연속
-### 함수의 극한 $\lim_{x = a} f(x)=L$ a의 양반향에서 값은 극한 값을 가져야 한다.
+### 함수의 극한 $\lim_{x = a} f(x)=L$ a의 양반향에서 값은 극한 값을 가져야 한다. f(a)=L이 될 필요는 없다.
 ### [극한 개념](https://ko.khanacademy.org/math/precalculus/x9e81a4f98389efdf:limits-and-continuity/x9e81a4f98389efdf:defining-limits-and-using-limit-notation/a/limits-intro)
+
+### 함수의 연속성 : f 함수가 x=a에서 연속이라는 것은 그 점에서의 극한 값과 함수 값이 존재하고 두 값이 일치함을 의미한다.  
+### $\lim_{x = a} f(x)=f(a)$
