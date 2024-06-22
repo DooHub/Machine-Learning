@@ -14,3 +14,8 @@
 
 ### 중간값 정리[Intermediate value theorem](https://ko.khanacademy.org/math/precalculus/x9e81a4f98389efdf:limits-and-continuity/x9e81a4f98389efdf:working-with-the-intermediate-value-theorem/v/intermediate-value-theorem-example)  
 ### 어떤 함수가 폐구간[a,b]에서 연속이고 f(a)와 f(b)의 값이 같지 않은 조건에서 f(a)와 f(b)사이의 어떤 값 k에 대해 f(c)=k인 c가 적어도 한 개 이상 존재하는 것을 의미 한다.
+
+# 2 미분의 이해
+## 1)도함수와 정적분(Definite integral)
+### 함수의 극한이 정의 되면, 함수의 국소적 또는 순간적 특징을 나타내는 도함수와 함수의 전체적인 특징을 나타내는 정적분을 정의 할 수 있다.  
+### 도함수 정의 $ $
