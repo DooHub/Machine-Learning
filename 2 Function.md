@@ -18,4 +18,8 @@
 # 2 미분의 이해
 ## 1)도함수와 정적분(Definite integral)
 ### 함수의 극한이 정의 되면, 함수의 국소적 또는 순간적 특징을 나타내는 도함수와 함수의 전체적인 특징을 나타내는 정적분을 정의 할 수 있다.  
-### 도함수 정의 $f'(x)=\lim_{\Delta x \to 0} \frac{f(a+\Delta x)-f(a)}{\Delta x}$
+### 도함수 정의 $f'(x)=\lim_{\Delta x \to 0} \frac{f(a+\Delta x)-f(a)}{\Delta x}$  
+### 기본 미분 공식  
+### $\frac{d}{dx}x^n=nx^{n-1}, \quad \frac{d}{dx}\text{ln}x=\frac{1}{x}, \quad \frac{d}{dx}e^x=e^x, \quad \frac{d}{dx}(fg)=f\frac{dg}{dx}+g\frac{df}{dx}$  
+### 연쇄법칙(Chain rule) - 합성함수의 도함수를 구할 때 활용 $f\circ g$의 도함수는 $f'(g(x))g'(x)$로 구함수 있다.
+
