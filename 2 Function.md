@@ -4,5 +4,5 @@
 ### $h(x)=g(f(x))=g\circ f$ 
 
 ## 2) 함수의 극한, 연속
-
+### 함수의 극한 $\lim_{x = a} f(x)=L$ a의 양반향에서 값은 극한 값을 가져야 한다.
 ### [극한 개념](https://ko.khanacademy.org/math/precalculus/x9e81a4f98389efdf:limits-and-continuity/x9e81a4f98389efdf:defining-limits-and-using-limit-notation/a/limits-intro)
