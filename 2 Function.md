@@ -42,5 +42,22 @@ def d(x):
 
 print(d(2.0))  # 12.0 answer. sp.diff(3*x**2+1).subs(x,2)
 
+```
+# 정분의 이해
+### 1) 부정적분과 정적분  
+### 부정적분(indefinite integral)로 구간이 정해 있지 않아, 상수항을 C로 나타낸다. 미분의 역 연산(anti-derivate)  
+### 정적분(definte integral)로 구간이 정해져 있는 경우로, 넓이나 부피를 구할 때 사용 한다.
+### $F'(x)=f(x) \quad \longrightarrow \int_{a}^{b}f(x)dx =F(b)-F(a)$
+```python
+import sympy as sp
+x=sp.Symbo('x')
+sp.integrate(3.0*x**2+1) # 부정적분
 
+from scipy.integrate import quad
+
+def f(x):
+  return 3.0*x**2+1
+i=qaud(f,0,2) # 정적분 구간[0,2]
+i[0] # 정적분 값
+i[1] # 정적분의 오
 ```
