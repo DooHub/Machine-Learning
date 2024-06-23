@@ -72,4 +72,8 @@ solution=fsolve(line, -2) # -2부터 해를 찾아 간다. fsolve함수의 경�
 ### 2) 편미분(Partial derivative) : E=f(x,y,z) 인 경우 3가지 변수에 대하 미분을 할 수 있다  
 ### 변수 x에 대해 미분 한 경우 (partial derivative of with respect to x로 읽음) $\frac{\partial f}{\partial x}$ 표시한다.
 ### 이렇게 다변수 함수에서 여러 개의 편도함수를 구할 수 있고, 다변수 함수의 모든 편도함수를 다음처럼 한 묶음으로 표현 할 수 있는데 이를 그라디언트벡터(gradient vector:기울기 벡터)라 부른다.  
-### 함수 f(x,y,z)의 기울기 벡터 $\nabla f=grad f=(\frac{\partial f}{\partial x},\frac{\partial f}{\partial y},\frac{\partial f}{\partial z})$
+### 함수 f(x,y,z)의 기울기 벡터 $\nabla f=grad f=(\frac{\partial f}{\partial x},\frac{\partial f}{\partial y},\frac{\partial f}{\partial z})$ 로 표시할 수 있다.  
+### $\nabla$은 편미분 연산자($\frac{\partial }{\partial x},\frac{\partial }{\partial y},\frac{\partial }{\partial z}$)를 표시한다.  
+### 기울기벡터(gradient vector)는 매끄러운 곡면 f(x,y,z)=0에 수직인 법선 벡터이다. 즉, 고면 위의 임의의 점을 잡았을 때 그 점을 지나는 곡면 위의 모든 곡선의 접선 벡터에 수직인 벡터를 나타내게 된다.
+
+### 3)경사하강법(gradient descent) : 미분을 통해 최적의 값을 찾는 방법. 예를 들어 2차 함수의 경우 경우 기울기의 변화가 +에서-로 혹은 그 반대일 경우에 최소 혹은 최대 값을 가지는 것을 찾을 수 있다.
